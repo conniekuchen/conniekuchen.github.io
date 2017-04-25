@@ -37,7 +37,7 @@ $(document).ready(function() {
   });
 
   $("#clickhere").click(function(){
-    $("#inserthere").html("* Some stories may be completely falsified. Read at your own risk of believing lies about me.");
+    $("#inserthere").html("*Some stories may be completely falsified. Read at your own risk of believing lies about me.");
   });
 
 
@@ -50,6 +50,51 @@ $(document).ready(function() {
     };
   });
 
+
+  $("#cake1").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#one").offset().top
+    }, 500);
+  });
+
+  $("#cake2").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#two").offset().top
+    }, 500);
+  });
+
+  $("#cake3").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#three").offset().top
+    }, 500);
+  });
+
+  $("#cake4").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#four").offset().top
+    }, 500);
+  });
+
+  $("#cake5").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#five").offset().top
+    }, 500);
+  });
+
+  $("#cake6").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#six").offset().top
+    }, 500);
+  });
+
+  $(".scrollup").click(function() {
+    $('html,body').animate({scrollTop: 0});
+  });
+
+
+  // $(".order-button").click(function(){
+  //   $("inserthere2").html("Your order has been received, thank you!");
+  // });
   
 
 });

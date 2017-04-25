@@ -241,10 +241,18 @@ body, html {
     font-size: 1.5em;
 }
 
+#headline-button a {
+	text-decoration: none;
+	color: black;
+}
+
+
 #headline-button:hover {
 	border: 3px solid white;
 	background: #64c89a;
 	color: white;
+	-webkit-transition: 0.1s linear;
+
 }
 
 
@@ -341,6 +349,7 @@ body, html {
 
 #clickhere {
 	cursor: pointer;
+	font-weight: bold;
 }
 
 #clickhere:hover {
@@ -356,7 +365,7 @@ body, html {
 	border: 1px solid white;
 	width: 230px;
 	top: 50px;
-	left: 38%;
+	left: 40%;
 	position: relative;
 	padding: 15px;
 }
@@ -392,13 +401,14 @@ body, html {
 	width: 80%;
 	position: relative;
 	margin: 0 auto;
-	top: 60px;
+	top: 70px;
 }
 
 .cake-item {
 	width: 100%;
 	height: 450px;
-	padding: 5px;
+	/*padding: 5px;*/
+	margin: 8px;
 }
 
 .cake-name {
@@ -496,8 +506,18 @@ body, html {
 	-webkit-transition: 0.1s linear;
 }
 
+.scrollup {
+	color: #e0e0e0;
+	font-size: 1em;
+	cursor: pointer;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
 
-
+.scrollup:hover {
+	color: white;
+}
 
 
 .no-scroll {
